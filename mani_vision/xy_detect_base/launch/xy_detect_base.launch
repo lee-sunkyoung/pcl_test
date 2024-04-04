@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find realsense2_camera)/launch/rs_aligned_depth.launch" />
+    <node name="xy_detect_base" pkg="xy_detect_base" type="xy_detect_base" output="screen" />
+    
+</launch>
